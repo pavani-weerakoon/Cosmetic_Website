@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "52da1944-9af9-4fe2-91b0-c4971e151cc8",
+		"name": "Cosmetic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ADD Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"id\": 1,\r\n    \"name\":\"Red Glossy Lipstik\",\r\n    \"price\": 25000.00,\r\n    \"category\":\"Face\",\r\n    \"image\":\"https://www.google.com/imgres?imgurl=https%3A%2F%2Falixavien.com%2Fwp-content%2Fuploads%2F2022%2F03%2FGlossy-Lipstick-Model-min.jpg&tbnid=0PLxQA-JXOtz0M&vet=12ahUKEwjP257DgqqEAxWR2jgGHYDWDKoQMygRegUIARCNAQ..i&imgrefurl=https%3A%2F%2Falixavien.com%2Fen%2Fproduct%2Fglossy-lipstick-323-ruby-red%2F&docid=6HBKfiCBnsYdSM&w=1000&h=1000&q=red%20glossy%20lipstick&ved=2ahUKEwjP257DgqqEAxWR2jgGHYDWDKoQMygRegUIARCNAQ\",\r\n    \"description\":\"Load your lips with long lasting and impeccable red colour to fulfill your makeup requirements.\",\r\n    \"usage\":150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get ProducyById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
